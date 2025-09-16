@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synthetix IQ | Large-Cap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .header-section {
+            background-color: #0d1a2d;
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        .header-section h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .stock-list-item {
+            border: none;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .stock-list-item:hover {
+            transform: translateY(-5px);
+        }
+        .ticker-link {
+            text-decoration: none;
+            color: inherit;
+        }
+        .ticker-link:hover {
+            color: #0d6efd;
+        }
+        .badge-brand {
+            background-color: #0d1a2d;
+            color: #fff;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Synthetix IQ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#products">Back to Products</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header-section">
+        <div class="container">
+            <h1>Synthetix IQ | Large-Cap</h1>
+            <p class="lead mt-3">Our curated monthly picks for the top-performing large-cap stocks. Updated for [Current Month, Year].</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <a href="ticker-page.html" class="ticker-link">
+                    <div class="card stock-list-item h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5 class="card-title">AAPL</h5>
+                                <span class="badge bg-success">+3.5% (Past Month)</span>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">Apple Inc.</h6>
+                            <p class="card-text">
+                                **Quick Scan:** A leading technology giant that continues to show strong momentum in its core product lines and services. Recent performance is driven by [Key Factor 1] and [Key Factor 2].
+                            </p>
+                            <div class="mt-3">
+                                <span class="badge badge-brand me-1">Synthetix IQ | Large-Cap</span>
+                                <span class="badge bg-secondary">Momentum Pick</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <a href="ticker-page.html" class="ticker-link">
+                    <div class="card stock-list-item h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5 class="card-title">MSFT</h5>
+                                <span class="badge bg-success">+2.1% (Past Month)</span>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">Microsoft Corp.</h6>
+                            <p class="card-text">
+                                **Quick Scan:** A global leader in software and cloud computing, with sustained growth from its Azure platform. The company's recent strong momentum is fueled by its [Key Factor 1] and [Key Factor 2] initiatives.
+                            </p>
+                            <div class="mt-3">
+                                <span class="badge badge-brand me-1">Synthetix IQ | Large-Cap</span>
+                                <span class="badge bg-secondary">Momentum Pick</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            </div>
+    </main>
+
+    <footer class="footer mt-auto">
+        <div class="container">
+            <p>&copy; 2024 Synthetix IQ. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
